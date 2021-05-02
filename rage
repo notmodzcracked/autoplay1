@@ -67,7 +67,7 @@ do
 
         Variables.KeyFunctions.KeyDown(Direction)
         
-        local ReleaseDelay = shared.Settings.ReleaseDelay / 100
+        local ReleaseDelay = shared.Settings.ReleaseDelay / 1
 
         if Arrow.Data.Length > 0 then
             wait(Arrow.Data.Length + ReleaseDelay)
