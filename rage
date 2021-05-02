@@ -72,7 +72,7 @@ do
         if Arrow.Data.Length > 0 then
             wait(Arrow.Data.Length + ReleaseDelay)
         else
-            wait(0.01 + ReleaseDelay)
+            wait(0.02 + ReleaseDelay)
         end
 
         Variables.KeyFunctions.KeyUp(Direction)
